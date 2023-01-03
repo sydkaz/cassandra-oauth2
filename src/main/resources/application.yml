@@ -1,0 +1,22 @@
+logging:
+  level:
+    org.springframework: error
+    org.springframework.security: debug
+
+
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    cassandra:
+      keyspace-name: cassandra_oauth
+      contact-points: ${CASSANDRA_HOST:localhost}
+      port: 9042
+      schema-action: create_if_not_exists
+server:
+  port: 8080
+
+cassandra:
+  basepackages: com.herokuapp.samkaz
+

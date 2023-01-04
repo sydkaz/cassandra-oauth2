@@ -1,4 +1,4 @@
-package com.herokuapp.samkaz.util;
+package com.herokuapp.samkaz.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

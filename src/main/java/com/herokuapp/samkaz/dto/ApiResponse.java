@@ -1,5 +1,6 @@
-package com.herokuapp.samkaz.util;
+package com.herokuapp.samkaz.dto;
 
+import com.herokuapp.samkaz.util.Meta;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

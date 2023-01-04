@@ -10,10 +10,10 @@ spring:
     allow-bean-definition-overriding: true
   data:
     cassandra:
-      keyspace-name: cassandra_oauth
+      keyspace-name: cassandra_oauth_1
       contact-points: ${CASSANDRA_HOST:localhost}
       port: 9042
-      schema-action: create_if_not_exists
+      schema-action: recreate
 server:
   port: 8080
 
